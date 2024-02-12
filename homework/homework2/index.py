@@ -5,9 +5,9 @@ print(number % 10 == 3)
 
 print("--task 2")
 
-# input = input("Введите три числа через пробел: ")
-# A, B, C = input.split()
-# print(int(A) < 0 or int(B) < 0 or int(C) < 0)
+input = input("Введите три числа через пробел: ")
+A, B, C = input.split()
+print(int(A) < 0 or int(B) < 0 or int(C) < 0)
 
 
 print("--task 3")
@@ -22,11 +22,11 @@ print(f"Для {n3} и {k3}: {n3 % 2 == k3 % 2}")
 
 print('--task 4')
 
-# input = int(input("Введите число X: "))
-# result = input % 3 == 0 and input % 10 == 5
+input = int(input("Введите число X: "))
+result = input % 3 == 0 and input % 10 == 5
 
-# if result:
-#     print(result)
+if result:
+    print(result)
 
 print('--task 5')
 
@@ -71,26 +71,26 @@ print(f"max_number: {max_number}")
 
 print('--task 8')
 
-# year = int(input('Введите год: '))
+year = int(input('Введите год: '))
 
-# if ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0):
-#     print('Високосный')
-# else:
-#     print('Не Високосный')
+if ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0):
+    print('Високосный')
+else:
+    print('Не Високосный')
 
 print('--task 9')
 
-# x1 = 4
-# y1 = 4
-# x2 = 7
-# y2 = 8
+x1 = 4
+y1 = 4
+x2 = 7
+y2 = 8
 
-# is_one_color = (x1 + y1) % 2 == (x2 + y2) % 2
+is_one_color = (x1 + y1) % 2 == (x2 + y2) % 2
 
-# if (is_one_color):
-#     print('Один цвет')
-# else:
-#     print('Разные цветв')
+if (is_one_color):
+    print('Один цвет')
+else:
+    print('Разные цветв')
 
 
 print('--task 10')
